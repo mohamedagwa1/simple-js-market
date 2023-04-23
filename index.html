@@ -1,0 +1,196 @@
+<html>
+    <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Conpatible" content="IE=edge">
+          <meta name="viewport" content="width-device-width, initial-scale-1.0">
+          <title>task</title>
+          <link rel="stylesheet" href="css/all.css">
+          <link rel="stylesheet" href="css/style.css">  
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="brand">Shopping cart</a>
+                    <nav>
+                        <ul id="links">
+                            <li> <a href="login.html">sign in</a> </li>
+                            <li> <a href="register.html">sign up</a> </li>
+                        </ul>
+                        <ul id="user_info">
+                            <li> <a href="#" id="user">User</a> </li>
+                            <li class="shopping_cart" id="shopping_Cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge"></span>
+                                <div class="carts_products">
+                                    <div></div>
+                                    <a href="cartproducts.html"> View all products</a>
+                                </div>
+                            </li>
+                            <li><a href="#" id="logout"> Log Out</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="container">
+                <div id="products" class="products">
+                    <div class="product_item">
+                        <img src="images/product.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>Maserati Fashion Watch</h2>
+                            <p>Model: R8871612015)</p>
+                            <span> Blue </span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <!-- <div class="product_item">
+                        <img src="images/product2.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>Chronograph Watch</h2>
+                            <p>EFR-539D-1A2VUDF</p>
+                            <span> white </span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="images/product3.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>SAMSUNG Galaxy Watch5</h2>
+                            <p>Health Monitoring, Fitness Tracker,</p>
+                            <span> Black</span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="images/product6.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>BOSS</h2>
+                            <p>Chronograph Quartz Watch</p>
+                            <span> Blue </span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="images/product4.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>Naviforce</h2>
+                            <p>Analog Unisex Watch</p>
+                            <span> Black Dial,Blue </span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="images/product5.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>Rolex</h2>
+                            <p>Model: R8871612015)</p>
+                            <span> Blue </span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="images/product.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>Maserati Fashion Watch</h2>
+                            <p>Model: R8871612015)</p>
+                            <span> Blue </span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="images/product2.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>Chronograph Watch</h2>
+                            <p>EFR-539D-1A2VUDF</p>
+                            <span> white </span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="images/product3.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>SAMSUNG Galaxy Watch5</h2>
+                            <p>Health Monitoring, Fitness Tracker,</p>
+                            <span> Black</span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="images/product6.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>BOSS</h2>
+                            <p>Chronograph Quartz Watch</p>
+                            <span> Blue </span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="images/product4.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>Naviforce</h2>
+                            <p>Analog Unisex Watch</p>
+                            <span> Black Dial,Blue </span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="images/product5.jpg" alt="" class="img">
+                        <div class="product_item_desc">
+                            <h2>Rolex</h2>
+                            <p>Model: R8871612015)</p>
+                            <span> Blue </span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add_to_card">Add to card</button>
+                            <i class="far fa-heart fav"></i>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+
+
+    
+
+    <script src="js/script.js"></script>
+        
+    </body>
+</html>
